@@ -1,0 +1,6 @@
+"run_time_from","run_time_to","run_time_description","run_time_description_sorting"
+60000,93000,morning,1
+110000,123000,mid-day,2
+140000,153000,afternoon,3
+210000,233000,night,5
+160000,193000,evening,4
