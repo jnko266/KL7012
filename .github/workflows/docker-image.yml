@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build ../../M1_collector --file Dockerfile --tag m1-monitor:$(date +%s)
+      run: docker build ../M1_collector --file Dockerfile --tag m1-monitor:$(date +%s)
