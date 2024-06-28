@@ -33,4 +33,4 @@ jobs:
         context: ./M1_collector
         file: ./M1_collector/Dockerfile
         push: true
-        tags: ${{ github.repository_owner }}/m1-monitor:latest
+        tags: ghcr.io/${{ github.repository_owner }}/m1-monitor:latest
